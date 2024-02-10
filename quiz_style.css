@@ -1,0 +1,245 @@
+/* STYLE SECTIONING TAGS */
+body {
+    font-family: "Tahoma", serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: #F3FFFC
+  }
+  
+  /* STYLE TEXT */
+  
+  p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  h1 {
+    font-style: normal;
+    font-size: 40px;
+    color: #000000;
+  }
+  
+  h2 {
+    margin-top: 2em; 
+  }
+  
+  /* STYLE FLEX CONTAINER */
+  .question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+  }
+  
+  .answer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+    
+  /* STYLE FLEX ITEM */
+  .answer-choice {
+    margin: 5px;  
+  }
+  
+  /* STYLE IMAGES */
+  .answer-choice img {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  /* STYLE BUTTON */
+  button { 
+    margin-top: 5px;
+  }
+  
+  #q1a1{
+      background-color: #8CFFCF;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Tahoma", serif;
+  }
+  
+  #q1a1:active {
+    background-color: #F0F0F0;
+  }
+  
+  #q1a2{
+       background-color: #8CFFCF;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Tahoma", serif;
+  }
+  
+  #q1a2:active {
+    background-color: #F0F0F0;
+  }
+  
+  #q2a1{
+        background-color: #8CFFCF;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Tahoma", serif;
+  }
+  
+  #q2a1:active {
+    background-color: #F0F0F0;
+  }
+  
+  #q2a2{
+        background-color: #8CFFCF;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Tahoma", serif;
+  }
+  
+  #q2a2:active {
+    background-color: #F0F0F0;
+  }
+  
+  #q3a1{
+        background-color: #8CFFCF;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Tahoma", serif;
+  }
+  
+  #q3a1:active {
+    background-color: #F0F0F0;
+  }
+  
+  #q3a2{
+        background-color: #8CFFCF;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Tahoma", serif;
+  }
+  
+  #q3a2:active {
+    background-color: #F0F0F0;
+  }
+  
+  #q4a1{
+        background-color: #8CFFCF;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Tahoma", serif;
+  }
+  
+  #q4a1:active {
+    background-color: #F0F0F0;
+  }
+  
+  #q4a2{
+        background-color: #8CFFCF;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Tahoma", serif;
+  }
+  
+  #q4a2:active {
+    background-color: #F0F0F0;
+  }
+  
+  #q5a1{
+        background-color: #8CFFCF;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Tahoma", serif;
+  }
+  
+  #q5a1:active {
+    background-color: #F0F0F0;
+  }
+  
+  #q5a2{
+        background-color: #8CFFCF;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Tahoma", serif;
+  }
+  
+  #q5a2:active {
+    background-color: #F0F0F0;
+  }
+  
+  #restart{
+        background-color: #8CFFCF;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Tahoma", serif;
+    margin: 20px;
+  }
+  
+  #restart:active {
+    background-color: #F0F0F0;
+  }

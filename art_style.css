@@ -1,0 +1,67 @@
+body{
+    /*how to create a gradient background:
+    https://www.w3schools.com/css/css3_gradients.asp*/
+    background-color: #F7F6FF;
+  }
+  
+  .topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 80px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #titleText{
+    /*font from Google Fonts: https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom*/
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3.5em;
+    color: black; 
+    text-align: center; 
+  }
+  
+  img {
+    padding-left: 3.5%;
+  }
+  
+  #flowers {
+    width: 375px;
+    height: auto;
+  }
+  
+  #parfait {
+    width: 381px;
+    height: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  
+  #water {
+    width: 392px;
+    height: auto;
+    padding-left: 2px;
+  }
+  
+  #avocado {
+    width: 300px;
+    height: auto;
+    padding-left: 3.5%;
+    padding-top: 1px;
+  }
+  
+  #cat {
+    width: 475px;
+    height: auto;
+    padding-left: 1px;
+  }
