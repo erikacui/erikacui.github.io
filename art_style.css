@@ -54,14 +54,20 @@ body{
   }
   
   #avocado {
-    width: 300px;
+    width: 335px;
     height: auto;
     padding-left: 3.5%;
     padding-top: 1px;
   }
   
   #cat {
-    width: 475px;
+    width: 520px;
+    height: auto;
+    padding-left: 1px;
+  }
+
+  #diamond {
+    width: 285px;
     height: auto;
     padding-left: 1px;
   }
